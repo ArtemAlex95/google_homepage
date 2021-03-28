@@ -1,16 +1,12 @@
 body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
 .container_navbar {display: flex; justify-content: flex-end;}
-.navbar {position: fixed; top: 0; margin-top: 0.7rem;}
+.navbar {position: fixed; top: 0; margin-top: 0.6rem;}
 .list li{display:inline;}
 .navlink {text-decoration: none; color: black; padding: 0 15px 0 0; font-size: 13px;}
 .navlink:hover {text-decoration: underline;}
-.button-apps {
-    
-  }
+.app_img {height: 17px; width: 17px; margin: 0 3.3em -0.3em 0.8em; cursor: pointer; opacity: 0.65;}
 
-.button-apps:hover{
-    
-}
+.app_img:hover{opacity: 1;}
 .sign_in_button {
     background: #1a73e8;
     color: #ffffff;
@@ -31,4 +27,8 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
     box-sizing: border-box;
     cursor: pointer;
 }
+
+.sign_in_button:hover {
+    background: #3e89eb;
+    box-shadow: 0 0 1px 1px rgba(72, 133, 212, 0.5);
 }
