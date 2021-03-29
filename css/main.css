@@ -108,7 +108,7 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
 }
 
 .button-field {
-    margin: 1.4rem 0 0 50rem;
+    margin: 1.4rem 0 0 51rem;
 }
 
 .btn_search, .btn_lucky {
@@ -125,6 +125,14 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
     min-width: 54px;
     text-align: center;
     cursor: pointer;
+}
+
+.btn_search:hover {
+    box-shadow: 0 0 1px 1px rgba(155, 159, 163, 0.5);
+}
+
+.btn_lucky:hover {
+    box-shadow: 0 0 1px 1px rgba(155, 159, 163, 0.5);
 }
 
 .bottom {
