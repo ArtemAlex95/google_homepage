@@ -51,11 +51,11 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
     height: 44px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 482px;
+    width: 600px;
 }
 
 .google_search:hover {
-    box-shadow: 0 0 1px 1px rgba(76, 77, 77, 0.3);
+    box-shadow: 0 0 2px 1px rgba(76, 77, 77, 0.3);
 }
 
 .flex-box {
@@ -90,18 +90,62 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
     outline: none;
     display: flex;
     flex: 100%;
-    margin-top: -56px;
+    margin-top: -54px;
     height: 34px;
     width: 390px;
     font-size: 16px;
 }
 
 .google-mic {
-    margin-left: 450px;
+    margin-left: 567px;
     margin-top: -53px;
   }
 
 .img_mic {
     height: 21px;
     width: 14px;
+    cursor: pointer;
+}
+
+.button-field {
+    margin: 1.4rem 0 0 50rem;
+}
+
+.btn_search, .btn_lucky {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom {
+    position: fixed;
+    bottom: 0;
+    height: 45px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.left-hand {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 15px;
+}
+
+.btm-links {text-decoration: none; color: #70757a; padding: 0 20px 0 15px;}
+.btm-links:hover {text-decoration: underline;}
+
+.right-hand {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -15px;
 }
