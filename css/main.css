@@ -51,7 +51,7 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
     height: 44px;
     border: 1px solid #dfe1e5;
     border-radius: 24px;
-    width: 600px;
+    width: 595px;
 }
 
 .google_search:hover {
@@ -108,7 +108,7 @@ body {font-size: 14px; font-family: Arial, Helvetica, sans-serif; color: #222;}
 }
 
 .button-field {
-    margin: 1.4rem 0 0 51rem;
+    margin: 1rem 0 0 51rem;
 }
 
 .btn_search, .btn_lucky {
